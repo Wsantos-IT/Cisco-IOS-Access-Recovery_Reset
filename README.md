@@ -17,7 +17,7 @@
 4. Encendemos el Router
 
    
-<img src="Lab01-imagen02.png" width="300">       <img width="358" height="195" alt="Lab01-imagen03" src="https://github.com/user-attachments/assets/ce2cb189-3a3e-47a5-8fdb-dda3c0847ec7" />
+<img src="Lab01-imagen02.png" width="300">       <img width="358" height="195" alt="Lab01-imagen03" src="Lab01-imagen03.png" />
 
 5. Ejecutamos Comandos:
    ```
@@ -33,21 +33,21 @@
 💡Necesitamos recuperar el acceso sin borar la configuracion.
 Interrumpiremos el Boot del Router para acceder al modo ROMMOM y cambiar el confreg para poder acceder a la info del router y poder hacer cambios sin borrar nada.
 
-<img width="546" height="294" alt="image" src="https://github.com/user-attachments/assets/c43a4505-8bd5-4cb2-a53b-2960c0e37c7d" />
+<img width="546" height="294" alt="image" src="Lab01-imagen04.png" />
 
 
 1. Con el Router apagado vamos a conectar el cable de consola y ejecutamos PuTTy como en el objetivo 1.
 2. Al encender el router inmediatamente presionamos las teclas FN + B o en la ventana de la Terminal de PuTTy hacemos click derecho en el borde > Special Command > Break
    Ejecutamos repetidamente esta combinacion de teclas o click en el Special Command Break y accederemos al modo ROMMOM
 
-   <img width="545" height="49" alt="image" src="https://github.com/user-attachments/assets/3f0ad8e9-8ce9-42df-8b4f-b87b3a0a29b8" />
+   <img width="545" height="49" alt="image" src="Lab01-imagen05.png" />
 
 3. Ejecutamos Comandos:
    ```
    rommon 1 >:confreg 0x2142
    rommon 1 >:reset
    ```
-<img width="537" height="67" alt="image" src="https://github.com/user-attachments/assets/80e7f7cd-b5e5-4cfa-9008-e7652dc626f5" />
+<img width="537" height="67" alt="image" src="Lab01-imagen06.png" />
 Tecleamos "no" en este dialogo y enter
 
 4. Ejecutamos Comandos por PASO 🚩:
