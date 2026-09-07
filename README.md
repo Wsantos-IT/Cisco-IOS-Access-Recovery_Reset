@@ -48,16 +48,24 @@ Interrumpiremos el Boot del Router para acceder al modo ROMMOM y cambiar el conf
    rommon 1 >:reset
    ```
 <img width="537" height="67" alt="image" src="https://github.com/user-attachments/assets/80e7f7cd-b5e5-4cfa-9008-e7652dc626f5" />
+Tecleamos "no" en este dialogo y enter
 
 4. Ejecutamos Comandos por PASO 🚩:
+
+   (Recupera la config antigua primero)
 ```
-   Router#copy startup-config running-config   (Recupera la config antigua primero)
+   Router#copy startup-config running-config   
+```
 
 💡En este punto revisamos contraseñas si no estan encriptadas y si no es el caso, recuperamos acceso creando otros usuarios
 u otra clave enable.
-
+```
    Router(config)#enable secret cisco
-   Router(config)#config-register 0x2102       (cambiamos al register original antes de guardar la configuracion con la nueva clave)
+
+```
+(cambiamos al register original antes de guardar la configuracion con la nueva clave)
+```
+   Router(config)#config-register 0x2102       
    Router(config)#copy running-config startup-config
    Router(config)#reload
 ```
