@@ -44,8 +44,8 @@ Interrumpiremos el Boot del Router para acceder al modo ROMMOM y cambiar el conf
 
 3. Ejecutamos Comandos:
    ```
-   rommom 1 >:confreg 0x2142
-   rommom 1 >:reset
+   rommon 1 >:confreg 0x2142
+   rommon 1 >:reset
    ```
 <img width="537" height="67" alt="image" src="https://github.com/user-attachments/assets/80e7f7cd-b5e5-4cfa-9008-e7652dc626f5" />
 
