@@ -1,4 +1,4 @@
-# Lab01-Cisco-IOS-Access-Recovery_Reset
+# Cisco-IOS-Access-Recovery_Reset
 ## **Lab01:** 
 ## - 🎯1 Recuperación de Acceso IOS en Router Cisco (Usuario y Contraseña Olvidados) 
 ## - 🎯2 Restablecimiento a configuracion de fabrica (Factory Reset)
